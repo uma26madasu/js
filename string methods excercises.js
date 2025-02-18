@@ -75,8 +75,4 @@ For the string I'm a little teapot, the letter count should be 15.
  * Counts the number of letters in the given string.
  * 
  * @param {string} input - The string to count letters from.
- * @returns {number} - The count of letters in the string.
-
-function countLetters(input) {
-    return input.replace(/[^a-zA-Z]/g, "").length;
-  }*/
+ * @returns {number} - The count of letters in the string.*/
