@@ -84,19 +84,39 @@ This comment gives you autocompletion
   Write a function checkWord that:
 
 Takes an array of strings words and a string word.
-If word is found in the words array, returns true, otherwise — returns false.*/
-/**
- * This comment gives you autocompletion
+If word is found in the words array, returns true, otherwise — returns false.
  * 
  * @param {string[]} words
  * @param {string} word
  * @returns {boolean} True if word is found, otherwise false
  */
-function checkWord(words, word) {
+/*function checkWord(words, word) {
     return words.includes(word);
   }
   
   // Example usage:
   console.log(checkWord(["apple", "banana", "cherry"], "banana")); // Output: true
   console.log(checkWord(["apple", "banana", "cherry"], "grape"));  // Output: false
+  
+  Write a function getFirstPosition that:
+
+Takes a values array and a value search value
+Returns the index of the first value occurrence in the array.
+Returns -1, if value isn't found in the array.*/
+
+/**
+ * This comment gives you autocompletion
+ * 
+ * @param {number[]|string[]} values
+ * @param {number|string} value
+ * @returns {number} The index of the first occurrence of value, or -1 if not found.
+ */
+function getFirstPosition(values, value) {
+    return values.indexOf(value);
+  }
+  
+  // Example usage:
+  console.log(getFirstPosition([10, 20, 30, 40], 30)); // Output: 2
+  console.log(getFirstPosition(["apple", "banana", "cherry"], "banana")); // Output: 1
+  console.log(getFirstPosition(["apple", "banana", "cherry"], "grape")); // Output: -1
   
